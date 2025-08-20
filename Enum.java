@@ -6,6 +6,9 @@ public class Enum{
 		Status[] s=Status.values();
 		for(Status variable : s) {
 			System.out.println(variable+" :"+ variable.ordinal());
+			if(variable.equals("failed")){
+				// print something
+			}
 		}
 	}
 }
